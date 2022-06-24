@@ -24,6 +24,7 @@ h2 {
 #logo {
     float: left;
     font-size: 290%;
+    margin-left: 25px;
 }
 
 #menu {
@@ -33,7 +34,8 @@ h2 {
     float: right;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -67,7 +69,8 @@ h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -84,10 +87,11 @@ h2 {
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.15);
     }
 }
@@ -99,9 +103,9 @@ h2 {
     letter-spacing: 1px;
 
     width: 275px;
-    height: 190px;
+    height: 200px;
 
-    padding-top: 25px;
+    padding-top: 20px;
     padding-left: 25px;
 
     background-color: rgba(137, 96, 160, .8);
@@ -110,4 +114,36 @@ h2 {
     right: 150px;
 
     position: absolute;
+}
+
+hr {
+    border-top: dotted 3px;
+    width: 240px;
+    opacity: 70%;
+    margin: 10px 0 10px 0;
+}
+
+/* why join our bookclub */
+#reasons-why-join {
+    height: 600px;
+}
+
+#left-why {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-why {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#center-why {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
 }
