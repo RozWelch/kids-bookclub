@@ -7,6 +7,20 @@
 }
 
 body {
-    font-family: Quicksand;
-    font-weight: 700;
+    font-family: Roboto;
+    font-weight: 300;
+    color: #252525;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Quicksand, sans-serif;
+    letter-spacing: 1px;
+    color: #6a2383;
+}
+
+#logo {
+    float: left;
+    font-size: 290%;
 }
