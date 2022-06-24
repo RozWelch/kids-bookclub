@@ -57,12 +57,18 @@ h2 {
     border-bottom: 2px solid #72c5ce;
 }
 
-/* hero image */
+/* hero image and cover text */
 
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
 }
 
 #hero-image {
@@ -84,4 +90,24 @@ h2 {
     to{
         transform: scale(1.15);
     }
+}
+
+#cover-text {
+    font-size: 120%;
+    font-family: Quicksand, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    width: 275px;
+    height: 190px;
+
+    padding-top: 25px;
+    padding-left: 25px;
+
+    background-color: rgba(137, 96, 160, .8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
 }
