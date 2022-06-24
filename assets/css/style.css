@@ -14,7 +14,8 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Quicksand, sans-serif;
     letter-spacing: 1px;
     color: #6a2383;
@@ -23,4 +24,35 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 290%;
+}
+
+#menu {
+    font-family: Quicksand, sans-serif;
+    font-size: 110%;
+    letter-spacing: 1px;
+    float: right;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    float: left;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #6a2383;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #72c5ce;
+}
+
+.active {
+    border-bottom: 2px solid #72c5ce;
 }
