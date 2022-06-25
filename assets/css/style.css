@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 300;
     color: #252525;
 }
@@ -125,7 +125,7 @@ hr {
 
 /* why join our bookclub */
 #reasons-why-join {
-    height: 600px;
+    height: 380px;
 }
 
 #reasons-why-join hr {
@@ -182,7 +182,33 @@ hr {
 }
 
 #center-why {
-    background: url(../images/center-section.gif); no-repeat center center;
-    height: 253px;
-    width: 500px;
+    background: url(../images/center-icon-kids.gif);
+    no-repeat center center;
+    height: 228px;
+    width: 450px;
+    margin-top: 20px;
+}
+
+/* Book Review Section */
+
+#book-reviews {
+    background-color: #cfe8ec;
+    height: 300px;
+}
+
+#main-book-review-heading {
+    font-family: Quicksand, sans-serif;
+    color: #6a2383;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 160%;
+}
+
+h3 {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    color: #252525;
+    font-size: 90%;
 }
