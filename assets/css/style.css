@@ -147,7 +147,6 @@ hr {
 #center-why {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
 }
 
 .left-why-heading {
@@ -172,4 +171,18 @@ hr {
 
 .right-why-heading p {
     text-align: right;
+}
+
+#center-heading-why {
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 190%;
+}
+
+#center-why {
+    background: url(../images/center-section.gif); no-repeat center center;
+    height: 253px;
+    width: 500px;
 }
