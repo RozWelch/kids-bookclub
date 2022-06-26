@@ -236,6 +236,27 @@ footer {
     width: 100%;
 }
 
+/* Form Section */
+
+.form-section {
+    clear: left;
+    background: url('../images/young-smiley-girl-portrait-pointing.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.signup-form {
+    margin: 100px 10% 0 0;
+    color: #fff;
+    background-color: rgba(207, 232, 236, 0.8);
+    max-width: 450px;
+    position: absolute;
+    left: 10%;
+    padding: 20px;
+}
+
+
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
