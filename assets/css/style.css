@@ -183,8 +183,8 @@ hr {
 #center-why {
     background: url(../images/center-icon-kids.gif);
     no-repeat center center;
-    height: 228px;
-    width: 450px;
+    height: 204px;
+    width: 426px;
     margin-top: 20px;
 }
 
@@ -338,7 +338,6 @@ footer {
     #left-why, #right-why {
         width: 100%;
     }
-
 
     #left-why h2, #right-why h2 {
         width: 100%;
