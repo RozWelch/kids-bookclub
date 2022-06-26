@@ -260,6 +260,10 @@ footer {
     hr {
         display: none;
     }
+
+    #photos {
+        column-count: 2;
+    }
 }
 
 /* For medium screen sizes from 950px wide and down */
