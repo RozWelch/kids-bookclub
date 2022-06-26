@@ -310,7 +310,7 @@ footer {
         float: left;
         padding: 0;
     }
-    hr {
+    #left-why hr, #right-why hr {
         display: none;
     }
 
@@ -336,12 +336,19 @@ footer {
     }
 
     #left-why, #right-why {
-        width: inherit;
+        width: 100%;
     }
+
 
     #left-why h2, #right-why h2 {
         width: 100%;
         text-align: center;
+    }
+
+    .left-why-heading, .right-why-heading {
+        margin: auto;
+        float: none;
+        margin-bottom: 4rem;
     }
 
     #left-why p, #right-why p {
@@ -349,4 +356,28 @@ footer {
         padding: 0 20px;
     }
 
+}
+
+
+
+/* Example book review */
+
+#main-book-review-heading {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.book-container {
+    padding: 5rem 0;
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 22%
 }
