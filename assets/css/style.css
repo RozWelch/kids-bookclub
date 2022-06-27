@@ -241,7 +241,7 @@ footer {
 
 .form-section {
     clear: left;
-    background: url('../images/young-smiley-girl-portrait-pointing.jpg') alt="Young girl in yellow jumper pointing";
+    background: url('../images/young-smiley-girl-portrait-pointing.jpg');
     background-size: cover;
     background-position: center;
     height: 800px;
