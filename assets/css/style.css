@@ -181,7 +181,7 @@ hr {
 }
 
 #center-why {
-    background: url(../images/center-icon-kids.gif);
+    background: url(../images/center-icon-kids.gif) alt="Group of children having fun with books";
     no-repeat center center;
     height: 204px;
     width: 426px;
@@ -241,7 +241,7 @@ footer {
 
 .form-section {
     clear: left;
-    background: url('../images/young-smiley-girl-portrait-pointing.jpg');
+    background: url('../images/young-smiley-girl-portrait-pointing.jpg') alt="Young girl in yellow jumper pointing";
     background-size: cover;
     background-position: center;
     height: 800px;
