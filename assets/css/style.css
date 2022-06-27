@@ -233,7 +233,7 @@ footer {
     column-gap: 0;
 }
 
-#photos>img {
+#kids-photos>img {
     width: 100%;
 }
 
@@ -314,7 +314,7 @@ footer {
         display: none;
     }
 
-    #photos {
+    #kids-photos {
         column-count: 2;
     }
 }
