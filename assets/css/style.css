@@ -110,16 +110,16 @@ h2 {
 
     background-color: rgba(137, 96, 160, .8);
 
-    bottom: 30px;
-    right: 150px;
+    left: 30px;
+    top: 350px;
 
     position: absolute;
 }
 
 hr {
     border-top: dotted 3px;
+    border-color:  #72c5ce;
     width: 240px;
-    opacity: 70%;
     margin: 10px 0 10px 0;
 }
 
@@ -211,15 +211,18 @@ footer {
 
 /* gallery */
 
-#kids-photos {
-    clear: both;
-    column-count: 3;
-    column-gap: 0;
-}
-
-#kids-photos>img {
-    width: 100%;
-}
+.gallery-containe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .gallery-image {
+   margin: 5px;
+   transition: all 2s;
+  }
+  .gallery-image:hover {
+   transform: scale (1.1);
+  }
 
 /* Form Section */
 
